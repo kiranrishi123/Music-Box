@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Box</title>
+    <link rel="icon" href="Images/Music_app_logo.png">
+    <link rel="stylesheet" href="music_app.css">
+    <script src="https://kit.fontawesome.com/424c282c00.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header_container">
+            <div id="music_app_name">
+                <h2><i>MusicBox</i></h2>
+
+            </div>
+
+            <div class="header_Nav_Elements">
+                <ul>
+                    <li>Discover</li>
+                    <li><i class="fa-sharp fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search">
+                    </li>
+                    <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+        <div class="main_container">
+
+            <div class="left_container">
+                <div class="MyLibary_container">
+                    <i class="fa-solid fa-music"></i>
+                    <h1>My List</h1>
+                </div>
+
+                <div class="left_container_song_list_container" id="left_container_song_list_container">
+                    
+
+
+
+                    <!-- <div class="song_list_main_container">
+                        <img src="Images/sitaRamam.jpg" alt="Images">
+                        <div class="song_list_main_container_movie_details">
+                            <h1>Oh Sita</h1>
+                            <h2>Vishal Chandrasekhar</h2>
+                        </div>
+                        <i class="fa-solid fa-play"></i>
+                    </div> -->
+                    
+    
+                </div>
+
+            </div>
+
+            <div class="right_container" id="right_container">
+                <div class="container_1" id="container_1">
+                      <!-- <button><i class="fa-sharp fa-regular fa-heart"></i>Favorite</button> -->
+                </div>
+                <div class="container_2">
+                    <div class="main_container_2">
+                        <div class="wave" id="wave">
+                            <div class="wave1"></div>
+                            <div class="wave1"></div>
+                            <div class="wave1"></div>
+                        </div>
+                        <img src="Images/sitaRamam.jpg" alt="image" id="poster">
+                        <h5 id="bottom_title">
+                            <div class="subtitle">Oh Sita</div>
+                        </h5>
+                        <div class="icons">
+                            <i class="fa-solid fa-music" id="shuffle"></i>
+                            <i class="fa-solid fa-backward-step"></i>
+                            <i class="fa-solid fa-play" id="masterPlay"></i>
+                            <i class="fa-solid fa-forward-step"></i>
+                            <i class="fa-solid fa-download"></i>
+
+                        </div>
+                        <span class="current_start" id="current_start">00:00</span>
+                        <div class="bar">
+                            <input type="range" id="seek" min="0" max="100">
+                            <div class="bar_2" id="bar_2"></div>
+                            <div class="dot" id="dot"></div>
+                        </div>
+                        <span class="current_end" id="current_end">0:30</span>
+                        <div class="vol">
+                            <i class="fa-solid fa-volume-high" id="vol_icon"></i>
+                            <input type="range" id="vol" min="0" max="100">
+                            <div class="vol_bar"></div>
+                            <div class="dot" id="vol_dot"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="container_3">
+                    <div class="recommended_Title_conatiner">
+                        <div class="recommended_Title">
+                            <h1>Recommended Songs</h1>
+                            <div class="btn_s">
+                                <i class="fa-solid fa-left-long" id="pop_song_left"></i>
+                                <i class="fa-solid fa-right-long" id="pop_song_right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recommended_List_Mian_conatiner" id="recommended_List_Mian_conatiner">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="music_app.js"></script>
+</body>
+
+</html>
